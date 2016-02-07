@@ -52,7 +52,7 @@
                 <h3>Twitter</h3>
             </div>
           </a>
-          <a href="mailto:aukihat@gmail.com">
+          <a href="mailto:aukiha@aukiha.xyz">
             <div class="link a">
               <i class="box fa fa-envelope fa-2x"></i>
               <h3>Email</h3>
