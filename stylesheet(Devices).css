@@ -1,0 +1,83 @@
+@import url(https://fonts.googleapis.com/css?family=Fjalla+One);
+
+html, body, p, h2, h3 {
+  margin: 0;
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 20px;
+}
+
+@keyframes appear {
+  0%   { opacity: 0; margin: 100}
+  100% { opacity: 1; margin: 0}
+}
+
+h1 {
+  margin: 0;
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 60px;
+}
+
+body {
+  animation: appear 0.6s 0.6s ease-out;
+  animation-fill-mode: both;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+.column {
+	display: inline-block;
+	overflow: scroll-y;
+	width: 18%;
+		min-width: 300px;
+	height: 100%;
+	padding: 140px;
+	vertical-align:top;
+}
+.legend {
+	width: 120px;
+	margin: 10px;
+	color: #FFF;
+}
+.unit {
+	width: 100%;
+	padding: 5px;
+	margin-bottom: 5px;
+	box-shadow: 0px 0px 1px #111;
+}
+.legend .unit {
+	box-shadow: none;
+}
+.legend .unit {
+	margin: 0;
+}
+.inline {
+	display: inline-block;
+}
+.title {
+	font-size: 16pt;
+	margin-bottom: 5px;
+}
+.detail {
+	margin-bottom: 2px;
+}
+.detail-type {
+	opacity: 0.5;
+	margin-right: 5px;
+}
+/* Unit types */
+.server {
+	background-color: #E74C3C;
+	color: #1d1d1d;
+}
+.computer {
+	background-color: #2ECC71;
+	color: #1d1d1d;
+}
+.mobile {
+	background-color: #3498DB;
+	color: #1d1d1d;
+}
+.home {
+  margin-left: auto;
+  margin-right: auto;
+}

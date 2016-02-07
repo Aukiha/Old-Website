@@ -1,0 +1,169 @@
+@import url(https://fonts.googleapis.com/css?family=Fredoka+One);
+body {
+  font-family: 'Fredoka One', cursive;
+  color: black;
+  margin: 0;
+  background-color: 0080FF;
+  display: block;
+}
+@keyframes appear {
+  0%   { opacity: 0; margin: 100}
+  100% { opacity: 1; margin: 0}
+}
+@keyframes appear2 {
+  0%   { opacity: 0; }
+  100% { opacity: 1; }
+}
+.big {
+  animation: appear 0.6s 0.6s ease-in-out;
+  animation-fill-mode: both;
+  margin-top: 1em;
+  margin-left: auto;
+  margin-right: auto;
+}
+.box {
+  color: #FFFFFF;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-in-out;
+  transition-property: color;
+  padding: 0.1em;
+  box-sizing: border-box;
+}
+.box:hover {
+  color: #23527c;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-in-out;
+  transition-property: color;
+}
+.link {
+  color: #FFF;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-in-out;
+  transition-property: color;
+  text-decoration: none;
+  width: 8em;
+  height: auto;
+  display: inline-block;
+  text-align: center;
+  padding: 1em;
+  box-sizing: border-box;
+}
+.link:hover {
+  color: #23527c;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-in-out;
+  transition-property: color;
+}
+.links{
+  color: #FFF;
+  animation: appear 0.6s 0.6s ease-in-out;
+  animation-fill-mode: both;
+  text-align: center;
+}
+.row {
+  animation: appear 0.6s 0.6s ease-in-out;
+  animation-fill-mode: both;
+  color: white;
+  text-shadow:
+  -1px -1px 0 #000,
+  1px -1px 0 #000,
+  -1px 1px 0 #000,
+  1px 1px 0 #000;
+}
+.home {
+  animation: appear 0.6s 0.6s ease-in-out;
+  animation-fill-mode: both;
+  margin-left: auto;
+  margin-right: auto;
+}
+a {
+  text-decoration: none;
+}
+a:link {
+  color: #FFF;
+}
+a:visited {
+  color: #FFF;
+}
+a:hover {
+  color: #23527c;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-in-out;
+  transition-property: color;
+}
+h1,
+h2,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h4,
+.h5,
+.h6 {
+  font-family: inherit;
+  font-weight: 700;
+  line-height: 1.1;
+  color: inherit;
+  text-align: center;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-in-out;
+  transition-property: color;
+}
+h1:hover {
+  color: #23527c;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-in-out;
+  transition-property: color;
+}
+h1,
+.h1,
+h2,
+.h2, {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+h1,
+.h1 {
+  font-size: 36px;
+}
+h2,
+.h2 {
+  font-size: 30px;
+}
+h3,
+.h3 {
+  text-shadow:
+  -1px -1px 0 #000,
+  1px -1px 0 #000,
+  -1px 1px 0 #000,
+  1px 1px 0 #000;
+  font-size: 20px;
+  display: block;
+}
+h4,
+.h4 {
+  font-size: 15px;
+}
+p {
+  margin: 0 0 10px;
+  text-align: center;
+  text-shadow:
+  -1px -1px 0 #000,
+  1px -1px 0 #000,
+  -1px 1px 0 #000,
+  1px 1px 0 #000;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-in-out;
+  transition-property: color;
+small,
+.small {
+  font-size: 85%;
+}
+p:hover {
+  color: #23527c;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-in-out;
+  transition-property: color;
+}
